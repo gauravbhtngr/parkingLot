@@ -1,4 +1,4 @@
-#Description : 
+# Description : 
 There are two part of this application that I can think of.
 
 1. Console app to support few commands.
@@ -18,12 +18,12 @@ Parking app will be simple parking implementation, we will need to care about ho
 2. parking action handling strategy, for now we have in memory but in future we can have database strategy.
 
 
-#Design pattern used: 
+# Design pattern used: 
 1. Builder pattern.
 2. Strategy design pattern.
 3. Command design pattern.
 
-#Implementation
+# Implementation
 
 This application is divided in three layer.
 1. Console app : This is a generic framework to handle any type of command, This provided an interface ICommand for external application.
@@ -33,13 +33,13 @@ This provided ConsoleAppContext to build all parameters for execution, client ap
 2. Parking lot app : This is simple parking lot application with provided rule and commands to handle in memory parking, this can be extended
 for any other parking strategy.
 
-#Running the project
+# Running the project
 
 Interactive command-line mode 	./parking_lot
 File comand mode				./parking_lot <filename.txt> <.txt extension is mandatory>
 
-#Project Requirements
+# Project Requirements
 JDK version : 1.8.0_144
 Maven version :  Latest version of maven
 
-#Library used : Mockito and testNG for testing purpose
+# Library used : Mockito and testNG for testing purpose
